@@ -1,15 +1,15 @@
 import React from 'react';
-import Menu from "./components/menu";
+import {BrowserRouter} from "react-router-dom";
+import AppRoute from "./route/AppRoute";
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Menu/>
+      <BrowserRouter>
+          <AppRoute/>
 
-      </header>
-    </div>
+      </BrowserRouter>
+
   );
 }
 

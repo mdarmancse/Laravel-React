@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff !important;
+}
+
+.nav-logo {
+    width: 120px;
+    height: 40px;
+}
+.nav-font {
+    /*color: #151446 !important;*/
+    font-family: Montserrat;
+    font-weight: 400;
+}
+ul li{
+
+    transition: 2s all ease!important;
+}
+ul li:hover a{
+    /*background: #69DEFB;*/
+    color: #69DEFB !important;
+    border-bottom: 1px solid #69DEFB
+
+
+}
+.top-div {
+    padding-top: 150px;
+    min-height: 500px !important;
+    background: none;
+}
+.text-center {
+    text-align: center!important;
+}
+.login-btn {
+    font-family: Montserrat;
+    color: white!important;
+    background: #151446 !important;
+    box-shadow: 0 0 8px 0 rgba(240, 240, 240,1);
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+}
+.parallax {
+    background-color: #F9F9F9 !important;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    border-radius: 0% !important;
+}
+
+.top-title {
+    color: #151446;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 600;
+}
+.top-subtitle {
+    color: #151446;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.title-text {
+    color: #151446!important;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+.des-text {
+    color: #636363!important;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+}
+.item-logo {
+    width: 50px;
+    height: 50px;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.section-margin {
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+.play-logo {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.bkash-logo {
+    width: 120px;
+    height: 60px;
+}
+
+.btn-outline {
+    font-family: Montserrat;
+    color: white!important;
+    background: #151446 !important;
+    box-shadow: 0 0 8px 0 rgba(240, 240, 240,1);
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.btn {
+    border-radius: 0% !important;
+}
+.btn-outline:hover {
+    background: #54DAFB !important;
+}
+.normal-btn:hover {
+    background: #54DAFB !important;
+}
+
+.title-text {
+    color: #151446!important;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Montserrat;
+}
+.footer-link:hover {
+    color: #54DAFB!important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.des-text {
+    color: #636363!important;
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-weight: 300;
+}
+.custom-bg {
+    background-color: #151446!important;
+}
+
+.credit-text {
+    color: white!important;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+}
+.modal {
+    border-radius: 0% !important;
+}
+#snackbar {
+    font-family: Roboto;
+    font-size: 13px;
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 0px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+.play-small {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.card {
+    border: none;
+    border-radius: 0% !important;
+    box-shadow: 0 0 4px 0 rgba(240, 240, 240,1);
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
+.bg-light-Off {
+    background-color: #F9F9F9 !important;
+}
+
+@media (prefers-reduced-motion: no-preference){
+    .react-logo {
+        animation:react-logo-spin infinite 20s linear;
+    }
+
+    .react-logo {
+        height: 40vmin;
+        pointer-events: none;
+    }
+
+}
+
