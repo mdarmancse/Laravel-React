@@ -1,0 +1,188 @@
+<html>
+<head>
+    <title></title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Laravel tutorial bangla | Rabbil Hasan is an Expert Web Developer in Bangladesh. He is highly talented, experienced, professional and cooperative software engineer, working in programming and web world for more than 4 years. Moreover Rabbil Hasan has a skilled team for achieving his goal named “Team Rabbil”.Team Rabbil assure you a wide range of quality IT services. ">
+    <meta name="keywords" content="Laravel  tutorial bangla, Expert Web Developer in Bangladesh, Expert Mobile App Developer in Bangladesh, Android App Developer in Bangladesh">
+    <meta name="author" content="Rabbil Hasan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/app.css" rel="stylesheet" type="text/css" >
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" >
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet" type="text/css" >
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" >
+    <link href="css/fontawesome.css" rel="stylesheet" type="text/css" >
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" >
+</head>
+<body>
+
+<nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="http://react.rabbil.com"><img class="nav-logo" src="images/logo.svg"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav p-1">
+            <li class="nav-item active">
+                <a class="nav-link nav-font" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link nav-font" href="courseplan.html">Course Plan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-font" href="freeclass.html">Free Class</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-font" href="registration.html">Registration</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<div class="container section-marginbg">
+    <div class="row ">
+        <div class="container card">
+            <div class="row ">
+                <div class="col-md-6 mt-5 col-sm-12">
+                    <div class="card-body">
+                        <h5 class="title-text mt-3">USER LOGIN</h5>
+                        <form action=" " class="loginForm">
+                            <input id="mobile" required="" name="mobile" value="" type="text" class="form-control my-3 " placeholder="Mobile No">
+                            <input id="password" required="" name="password" value="" type="password" class="form-control my-3 " placeholder="Password">
+                            <button type="submit" name="submit" id="logBtn" class="btn loginBtn btn-block normal-btn">Login</button>
+                            <div class="ml-4 my-3">
+                                <input type="checkbox" name="check" value="check" class="form-check-input " id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                            </div>
+                        </form>
+                        <a href="" data-toggle="modal" data-target="#passResetModal"  class="nav-font">Password Reset</a> ||
+                        <a href="" data-toggle="modal" data-target="#quickModal" class="nav-font">Quick Recover</a>
+                    </div>
+
+                    <div id="snackbar"></div>
+                </div>
+
+                <div class="col-md-6 bg-light-Off text-center col-sm-12">
+                    <img class="react-logo mt-5" src="images/loading.svg">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="passResetModal" class="modal passResetModal  " tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="title-text">Reset Password</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form action="" class="passReset">
+                <div class="modal-body">
+                    <input required="" id="mobileReset" name="mobileReset" value="" type="text" class="form-control" placeholder="Mobile No"><br>
+                    <input required="" id="passwordOldReset" name="passwordOldReset" value="" type="password" class="form-control" placeholder="Old Password"><br>
+                    <input required="" id="passwordNewReset" name="passwordNewReset" value="" type="password" class="form-control" placeholder="New Password"><br>
+                    <div id="snackbarReset"></div>
+                </div>
+                <div class="modal-footer">
+                    <button id="resetBtn" name="submit"  type="submit" class="btn resetBtn normal-btn">Reset</button>
+                    <button type="button" class="btn btn normal-btn" data-dismiss="modal">Close</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="quickModal" class="modal quickModal  " tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="title-text">Account Details Recover</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form action="" class="passRecover">
+                <div class="modal-body">
+                    <input id="mobilequick" name="mobile" value="" type="text" class="form-control" placeholder="Mobile No"><br>
+                    <div id="snackbarRecover"></div>
+                </div>
+                <div class="modal-footer">
+                    <button id="quickBtn" name="submit"  type="submit" class="btn quickBtn normal-btn">Get Details</button>
+                    <button type="button" class="btn btn normal-btn" data-dismiss="modal">Close</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="jumbotron  jumbotron-fluid bg-light-Off mb-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-lg-3 col-sm-6">
+                <h3 class="title-text">Follow Me</h3>
+                <hr>
+                <p><a target="_blank" href="https://web.facebook.com/programmerRabbil" class="footer-link"><i class="fab fa-facebook-f"></i> Facebook</a></p>
+                <p><a target="_blank" href="https://www.youtube.com/channel/UCSMFY8_rooijS-Zv43tKCrQ" class="footer-link"><i class="fab fa-youtube"></i> YouTube </a></p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6">
+                <h3 class="title-text">Address</h3>
+                <hr>
+                <p class="des-text"><i class="fas fa-map-marker-alt"></i> Shekhertek 8,Mohammadpur, Adabor, Dhaka-1207</p>
+                <p class="des-text"><i class="fas fa-phone"></i> 01774688159 (Help-Line)</p>
+                <p class="des-text"><i class="fas fa-envelope"></i>  Engr.Rabbil@yahoo.com</p>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6">
+                <h3 class="title-text">Information</h3>
+                <hr>
+                <a class="footer-link" target="_blank"  href="http://rabbil.com/">About Rabbil </a><br>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6">
+                <h3 class="title-text">Legal</h3>
+                <hr>
+                <a class="footer-link" target="_blank" href="refund.html">Refund Policy</a><br>
+                <a class="footer-link" target="_blank" href="term.html">Terms & Conditions</a><br>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid text-white m-0 text-center p-3 custom-bg">
+    <p class="credit-text my-2 ">All Rights Reserved By Rabbil Hasan © 2020-2021</p>
+</div>
+
+<div class="modal" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg text-center" role="document">
+        <div class="modal-content ">
+            <video id='player'  poster='' width="100%">
+                <source src='' type='video/mp4'>
+            </video>
+            <div class="modal-footer">
+                <button type="button" class="btn normal-btn" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="snackbar"></div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/axios.min.js"></script>
+<script type="text/javascript" src="js/site.js"></script>
+</body>
+</html>
+
+
+
+
+
+
