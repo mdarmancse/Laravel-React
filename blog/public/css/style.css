@@ -34,15 +34,19 @@ ul li:hover a{
 .text-center {
     text-align: center!important;
 }
-.login-btn {
+.parallax .login-btn {
     font-family: Montserrat;
     color: white!important;
     background: #151446 !important;
-    box-shadow: 0 0 8px 0 rgba(240, 240, 240,1);
+    box-shadow: 0 0 8px 0 rgb(0, 217, 240);
     padding-left: 70px !important;
     padding-right: 70px !important;
     font-size: 18px !important;
     font-weight: 600 !important;
+    position: absolute;
+    top: 100%;
+    left: 43%;
+
 }
 .parallax {
     background-color: #F9F9F9 !important;
@@ -51,6 +55,7 @@ ul li:hover a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(".././images/banner.svg");
 }
 
 .btn {
@@ -58,23 +63,31 @@ ul li:hover a{
 }
 
 .top-title {
-    color: #151446;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(249, 255, 253);
     font-family: Montserrat;
     font-size: 50px;
     font-weight: 600;
+
 }
 .top-subtitle {
-    color: #151446;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(249, 255, 253);
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 300;
+
 }
 
 .title-text {
     color: #151446!important;
     font-size: 18px;
     font-weight: 400;
-    font-family: Montserrat;
+    font-family:Montserrat;
 }
 .des-text {
     color: #636363!important;
@@ -85,6 +98,8 @@ ul li:hover a{
 .item-logo {
     width: 50px;
     height: 50px;
+    margin-left: 40%;
+    margin-top:20px;
 }
 
 img {
@@ -181,9 +196,9 @@ a:hover {
     cursor: pointer;
 }
 .card {
-    border: none;
+    border: #5a45ff;
     border-radius: 0% !important;
-    box-shadow: 0 0 4px 0 rgba(240, 240, 240,1);
+    box-shadow: 0 0 4px 0 rgb(21, 20, 70);
 }
 .owl-carousel .owl-item img {
     display: block;
