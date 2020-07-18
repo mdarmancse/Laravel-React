@@ -7,7 +7,7 @@ class CoursePlanHome extends Component {
     render() {
         return (
             <Fragment>
-                <Container fluid={true} className="jumbotron bg-light section-margin jumbotron-fluid">
+                <Container fluid={true} className="jumbotron bg-light section-marginbg jumbotron-fluid">
                     <Row className="row justify-content-center text-center">
                         <Col className="col-md-8">
 

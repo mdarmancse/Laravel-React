@@ -7,6 +7,7 @@ import Loader from "../components/Loader";
 import WentWrong from "../components/WentWrong";
 import CoursePlan from "./CoursePlan";
 import CoursePlanHome from "../components/CoursePlanHome";
+import PaymentGuide from "../components/PaymentGuide";
 
 class HomePage extends Component {
 
@@ -19,6 +20,7 @@ class HomePage extends Component {
                 <HomeBanner/>
                 <CourseFeature/>
                 <CoursePlanHome/>
+                <PaymentGuide/>
 
 
             </Fragment>
