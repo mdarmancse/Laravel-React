@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/getCourseData','HomeController@getCourseData');
 Route::get('/getPlanData','HomeController@getPlanData');
 Route::get('/getPaymentData','HomeController@getPaymentData');
+Route::get('/getMoreSeriesData','HomeController@getMoreSeriesData');
 
 
 

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\MoreSeriesModel;
 use Illuminate\Http\Request;
 use App\CourseFeatureModel;
 use App\CoursePlanModel;
@@ -20,6 +21,10 @@ class HomeController extends Controller
     }
     function getPaymentData(){
         $result=PaymentGuideModel::all();
+        return $result;
+    }
+    function getMoreSeriesData(){
+        $result=MoreSeriesModel::all();
         return $result;
     }
 }

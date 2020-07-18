@@ -16,7 +16,6 @@ class PaymentGuide extends Component {
         super();
 
         this.state={
-
             DataList:[],
             isLoading:true,
             isError:false
@@ -66,7 +65,7 @@ class PaymentGuide extends Component {
                         <Row className="row justify-content-center text-center">
                             <Col md={6} sm={12} className="p-4">
                                 <img className='bkash-logo' src='storage/BKASH-LOGO.png'/> <br/>
-                                <p className='texr-justify des-text'>{ReactHtmlParser(myData[0]['des'])}</p>
+                                <p className='texr-justify des-text mt-2'>{ReactHtmlParser(myData[0]['des'])}</p>
                                 <Row>
                                     <Col md={4} sm={12} className="p-2">
                                         <Card className='text-center'>

@@ -1,19 +1,13 @@
 import React, {Component, Fragment} from 'react';
-import Menu from "./menu";
-import HomeBanner from "./HomeBanner";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button";
 import Axios from "axios";
 import Loader from "./Loader";
 import WentWrong from "./WentWrong";
-import {map} from "react-bootstrap/esm/ElementChildren";
+import Col from "react-bootstrap/Col";
+import Card from "react-bootstrap/Card";
 
-class CourseFeature extends Component {
-
-
+class MoreSeries extends Component {
     constructor(){
         super();
 
@@ -26,7 +20,7 @@ class CourseFeature extends Component {
     }
 
     componentDidMount() {
-        Axios.get('/getCourseData')
+        Axios.get('/getMoreSeriesData')
             .then((response) => {
 
                 if (response.status == 200) {
@@ -65,13 +59,15 @@ class CourseFeature extends Component {
                 return(
                     <Col lg={3} md={3} sm={12}>
 
-                        <Card className="text-center mt-5 mb-5" >
+
+                        <Card href={myList.url} className="text-center mt-5 mb-5" >
                             <Card.Img className="item-logo" src={myList.img} />
                             <Card.Body>
                                 <Card.Title className="title-text mt-2">{myList.title}</Card.Title>
                                 <Card.Text className="des-text">
                                     {myList.des}
                                 </Card.Text>
+                                <a target='_blank' className='nav-item my-1 des-text' href={myList.url}></a>
                             </Card.Body>
                         </Card>
 
@@ -83,8 +79,12 @@ class CourseFeature extends Component {
 
             return (
                 <Fragment>
-                    <Container className='section-margin'>
+                    <Container className='text-center section-margin'>
+                        <h5 className='title-text mt-2'>Find More</h5>
+                        <p className='des-text'>Learn with Arman,and get other tutorial series by Arman</p>
+
                         <Row>
+
                             {myView}
 
                         </Row>
@@ -96,6 +96,7 @@ class CourseFeature extends Component {
         }
 
 
-    }}
+    }
+}
 
-export default CourseFeature;
+export default MoreSeries;
