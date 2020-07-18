@@ -34,7 +34,7 @@ ul li:hover a{
 .text-center {
     text-align: center!important;
 }
-.parallax .login-btn {
+.login-btn {
     font-family: Montserrat;
     color: white!important;
     background: #151446 !important;
@@ -208,7 +208,7 @@ a:hover {
     background-color: #F9F9F9 !important;
 }
 
-@media (prefers-reduced-motion: no-preference){
+@media(prefers-reduced-motion: no-preference){
     .react-logo {
         animation:react-logo-spin infinite 20s linear;
     }
@@ -220,3 +220,25 @@ a:hover {
 
 }
 
+.loaderLogo{
+
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.wrong{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

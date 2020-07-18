@@ -11,7 +11,7 @@ class WentWrong extends Component {
                 <Container>
                     <Row>
                         <Col>
-                            <img className='w-50' src={wrong}/>
+                            <img className='wrong w-25' src={wrong}/>
 
                         </Col>
 

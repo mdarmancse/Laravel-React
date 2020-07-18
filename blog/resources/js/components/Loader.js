@@ -11,7 +11,8 @@ class Loader extends Component {
                 <Container>
                     <Row>
                         <Col>
-                            <img className='react-logo' src={loader}/>
+
+                            <img className='loaderLogo' src={loader}/>
 
                         </Col>
 

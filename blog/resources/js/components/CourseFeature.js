@@ -6,33 +6,95 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import Axios from "axios";
+import Loader from "./Loader";
+import WentWrong from "./WentWrong";
+import {map} from "react-bootstrap/esm/ElementChildren";
 
 class CourseFeature extends Component {
+
+    constructor(){
+        super();
+
+        this.state={
+
+            DataList:[],
+            isLoading:true,
+            isError:false
+        }
+    }
+
+  componentDidMount() {
+      Axios.get('/getCourseData')
+          .then((response) => {
+
+              if (response.status == 200) {
+
+                  this.setState({DataList:response.data, isLoading:false})
+
+              } else {
+
+                  this.setState({isLoading:false, isError:true})
+              }
+          })
+          .catch((error) => {
+              this.setState({isLoading:false, isError:true})
+
+          })
+
+  }
+
     render() {
-        return (
-            <Fragment>
-                <Container>
-                    <Row>
-                        <Col lg={3} md={3} sm={12}>
+        if (this.state.isLoading==true){
 
-                            <Card className="text-center mt-5 mb-5" >
-                                <Card.Img className="item-logo" src="storage/play.svg" />
-                                <Card.Body>
-                                    <Card.Title className="title-text mt-2">REACT BASIC</Card.Title>
-                                    <Card.Text className="des-text">
-                                        Free Videos Cover All Of Basics About React
-                                    </Card.Text>
-                                </Card.Body>
-                            </Card>
+            return(
 
-                        </Col>
+                <Loader/>
+            )
+        }
+        else if (this.state.isError==true){
 
-                    </Row>
+            return (
+                <WentWrong/>
+            )
+        }
+        else{
+            const myList=this.state.DataList;
+            const myView=myList.map(myList=>{
+                return(
+                    <Col lg={3} md={3} sm={12}>
 
-                </Container>
+                        <Card className="text-center mt-5 mb-5" >
+                            <Card.Img className="item-logo" src={myList.img} />
+                            <Card.Body>
+                                <Card.Title className="title-text mt-2">{myList.title}</Card.Title>
+                                <Card.Text className="des-text">
+                                    {myList.des}
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
 
-            </Fragment>
-        );
+                    </Col>
+
+                )
+
+            });
+
+            return (
+                <Fragment>
+                    <Container className='section-margin'>
+                        <Row>
+                            {myView}
+
+                        </Row>
+
+                    </Container>
+
+                </Fragment>
+            );
+        }
+
+
     }
 }
 

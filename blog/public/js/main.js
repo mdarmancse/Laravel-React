@@ -5312,7 +5312,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "*{\n    margin: 0;\n    padding: 0;\n}\nbody {\n    background-color: #fff !important;\n}\n\n.nav-logo {\n    width: 120px;\n    height: 40px;\n}\n.nav-font {\n    /*color: #151446 !important;*/\n    font-family: Montserrat;\n    font-weight: 400;\n}\nul li{\n\n    transition: 2s all ease!important;\n}\nul li:hover a{\n    /*background: #69DEFB;*/\n    color: #69DEFB !important;\n    border-bottom: 1px solid #69DEFB\n\n\n}\n.top-div {\n    padding-top: 150px;\n    min-height: 500px !important;\n    background: none;\n}\n.text-center {\n    text-align: center!important;\n}\n.parallax .login-btn {\n    font-family: Montserrat;\n    color: white!important;\n    background: #151446 !important;\n    box-shadow: 0 0 8px 0 rgb(0, 217, 240);\n    padding-left: 70px !important;\n    padding-right: 70px !important;\n    font-size: 18px !important;\n    font-weight: 600 !important;\n    position: absolute;\n    top: 100%;\n    left: 43%;\n\n}\n.parallax {\n    background-color: #F9F9F9 !important;\n    min-height: 500px;\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-image: url(" + escape(__webpack_require__(/*! .././images/banner.svg */ "./resources/images/banner.svg")) + ");\n}\n\n.btn {\n    border-radius: 0% !important;\n}\n\n.top-title {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    color: rgb(249, 255, 253);\n    font-family: Montserrat;\n    font-size: 50px;\n    font-weight: 600;\n\n}\n.top-subtitle {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    color: rgb(249, 255, 253);\n    font-family: Montserrat;\n    font-size: 18px;\n    font-weight: 300;\n\n}\n\n.title-text {\n    color: #151446!important;\n    font-size: 18px;\n    font-weight: 400;\n    font-family:Montserrat;\n}\n.des-text {\n    color: #636363!important;\n    font-family: Roboto;\n    font-size: 14px;\n    font-weight: 300;\n}\n.item-logo {\n    width: 50px;\n    height: 50px;\n    margin-left: 40%;\n    margin-top:20px;\n}\n\nimg {\n    vertical-align: middle;\n    border-style: none;\n}\n.section-margin {\n    margin-bottom: 50px;\n    margin-top: 50px;\n\n}\n.play-logo {\n    width: 60px;\n    height: 60px;\n    cursor: pointer;\n}\n.bkash-logo {\n    width: 120px;\n    height: 60px;\n}\n\n.btn-outline {\n    font-family: Montserrat;\n    color: white!important;\n    background: #151446 !important;\n    box-shadow: 0 0 8px 0 rgba(240, 240, 240,1);\n    padding-left: 20px !important;\n    padding-right: 20px !important;\n}\n\n.btn {\n    border-radius: 0% !important;\n}\n.btn-outline:hover {\n    background: #54DAFB !important;\n}\n.normal-btn:hover {\n    background: #54DAFB !important;\n}\n\n.title-text {\n    color: #151446!important;\n    font-size: 18px;\n    font-weight: 400;\n    font-family: Montserrat;\n}\n.footer-link:hover {\n    color: #54DAFB!important;\n}\n\na:hover {\n    text-decoration: none;\n}\n.des-text {\n    color: #636363!important;\n    /* font-family: Roboto; */\n    font-size: 14px;\n    font-weight: 300;\n}\n.custom-bg {\n    background-color: #151446!important;\n}\n\n.credit-text {\n    color: white!important;\n    font-family: Roboto;\n    font-size: 14px;\n    font-weight: 300;\n}\n.modal {\n    border-radius: 0% !important;\n}\n#snackbar {\n    font-family: Roboto;\n    font-size: 13px;\n    visibility: hidden;\n    min-width: 250px;\n    margin-left: -125px;\n    background-color: black;\n    color: #fff;\n    text-align: center;\n    border-radius: 0px;\n    padding: 16px;\n    position: fixed;\n    z-index: 1;\n    left: 50%;\n    bottom: 30px;\n    font-size: 17px;\n}\n\n.play-small {\n    width: 25px;\n    height: 25px;\n    cursor: pointer;\n}\n.card {\n    border: #5a45ff;\n    border-radius: 0% !important;\n    box-shadow: 0 0 4px 0 rgb(21, 20, 70);\n}\n.owl-carousel .owl-item img {\n    display: block;\n    width: 100%;\n}\n.bg-light-Off {\n    background-color: #F9F9F9 !important;\n}\n\n@media (prefers-reduced-motion: no-preference){\n    .react-logo {\n        -webkit-animation:react-logo-spin infinite 20s linear;\n                animation:react-logo-spin infinite 20s linear;\n    }\n\n    .react-logo {\n        height: 40vmin;\n        pointer-events: none;\n    }\n\n}\n\n", ""]);
+exports.push([module.i, "*{\n    margin: 0;\n    padding: 0;\n}\nbody {\n    background-color: #fff !important;\n}\n\n.nav-logo {\n    width: 120px;\n    height: 40px;\n}\n.nav-font {\n    /*color: #151446 !important;*/\n    font-family: Montserrat;\n    font-weight: 400;\n}\nul li{\n\n    transition: 2s all ease!important;\n}\nul li:hover a{\n    /*background: #69DEFB;*/\n    color: #69DEFB !important;\n    border-bottom: 1px solid #69DEFB\n\n\n}\n.top-div {\n    padding-top: 150px;\n    min-height: 500px !important;\n    background: none;\n}\n.text-center {\n    text-align: center!important;\n}\n.login-btn {\n    font-family: Montserrat;\n    color: white!important;\n    background: #151446 !important;\n    box-shadow: 0 0 8px 0 rgb(0, 217, 240);\n    padding-left: 70px !important;\n    padding-right: 70px !important;\n    font-size: 18px !important;\n    font-weight: 600 !important;\n    position: absolute;\n    top: 100%;\n    left: 43%;\n\n}\n.parallax {\n    background-color: #F9F9F9 !important;\n    min-height: 500px;\n    background-attachment: fixed;\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;\n    background-image: url(" + escape(__webpack_require__(/*! .././images/banner.svg */ "./resources/images/banner.svg")) + ");\n}\n\n.btn {\n    border-radius: 0% !important;\n}\n\n.top-title {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    color: rgb(249, 255, 253);\n    font-family: Montserrat;\n    font-size: 50px;\n    font-weight: 600;\n\n}\n.top-subtitle {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    color: rgb(249, 255, 253);\n    font-family: Montserrat;\n    font-size: 18px;\n    font-weight: 300;\n\n}\n\n.title-text {\n    color: #151446!important;\n    font-size: 18px;\n    font-weight: 400;\n    font-family:Montserrat;\n}\n.des-text {\n    color: #636363!important;\n    font-family: Roboto;\n    font-size: 14px;\n    font-weight: 300;\n}\n.item-logo {\n    width: 50px;\n    height: 50px;\n    margin-left: 40%;\n    margin-top:20px;\n}\n\nimg {\n    vertical-align: middle;\n    border-style: none;\n}\n.section-margin {\n    margin-bottom: 50px;\n    margin-top: 50px;\n\n}\n.play-logo {\n    width: 60px;\n    height: 60px;\n    cursor: pointer;\n}\n.bkash-logo {\n    width: 120px;\n    height: 60px;\n}\n\n.btn-outline {\n    font-family: Montserrat;\n    color: white!important;\n    background: #151446 !important;\n    box-shadow: 0 0 8px 0 rgba(240, 240, 240,1);\n    padding-left: 20px !important;\n    padding-right: 20px !important;\n}\n\n.btn {\n    border-radius: 0% !important;\n}\n.btn-outline:hover {\n    background: #54DAFB !important;\n}\n.normal-btn:hover {\n    background: #54DAFB !important;\n}\n\n.title-text {\n    color: #151446!important;\n    font-size: 18px;\n    font-weight: 400;\n    font-family: Montserrat;\n}\n.footer-link:hover {\n    color: #54DAFB!important;\n}\n\na:hover {\n    text-decoration: none;\n}\n.des-text {\n    color: #636363!important;\n    /* font-family: Roboto; */\n    font-size: 14px;\n    font-weight: 300;\n}\n.custom-bg {\n    background-color: #151446!important;\n}\n\n.credit-text {\n    color: white!important;\n    font-family: Roboto;\n    font-size: 14px;\n    font-weight: 300;\n}\n.modal {\n    border-radius: 0% !important;\n}\n#snackbar {\n    font-family: Roboto;\n    font-size: 13px;\n    visibility: hidden;\n    min-width: 250px;\n    margin-left: -125px;\n    background-color: black;\n    color: #fff;\n    text-align: center;\n    border-radius: 0px;\n    padding: 16px;\n    position: fixed;\n    z-index: 1;\n    left: 50%;\n    bottom: 30px;\n    font-size: 17px;\n}\n\n.play-small {\n    width: 25px;\n    height: 25px;\n    cursor: pointer;\n}\n.card {\n    border: #5a45ff;\n    border-radius: 0% !important;\n    box-shadow: 0 0 4px 0 rgb(21, 20, 70);\n}\n.owl-carousel .owl-item img {\n    display: block;\n    width: 100%;\n}\n.bg-light-Off {\n    background-color: #F9F9F9 !important;\n}\n\n@media(prefers-reduced-motion: no-preference){\n    .react-logo {\n        -webkit-animation:react-logo-spin infinite 20s linear;\n                animation:react-logo-spin infinite 20s linear;\n    }\n\n    .react-logo {\n        height: 40vmin;\n        pointer-events: none;\n    }\n\n}\n\n.loaderLogo{\n\n    border-radius: 50%;\n    width: 120px;\n    height: 120px;\n    -webkit-animation: spin 2s linear infinite;\n            animation: spin 2s linear infinite;\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n}\n\n@-webkit-keyframes spin {\n    0% { transform: rotate(0deg); }\n    100% { transform: rotate(360deg); }\n}\n\n@keyframes spin {\n    0% { transform: rotate(0deg); }\n    100% { transform: rotate(360deg); }\n}\n\n.wrong{\n\n    display: block;\n    margin-left: auto;\n    margin-right: auto;\n}\n", ""]);
 
 // exports
 
@@ -50387,6 +50387,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-bootstrap/Col */ "./node_modules/react-bootstrap/esm/Col.js");
 /* harmony import */ var react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-bootstrap/Card */ "./node_modules/react-bootstrap/esm/Card.js");
 /* harmony import */ var react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-bootstrap/Button */ "./node_modules/react-bootstrap/esm/Button.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _Loader__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./Loader */ "./resources/js/components/Loader.js");
+/* harmony import */ var _WentWrong__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./WentWrong */ "./resources/js/components/WentWrong.js");
+/* harmony import */ var react_bootstrap_esm_ElementChildren__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-bootstrap/esm/ElementChildren */ "./node_modules/react-bootstrap/esm/ElementChildren.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -50418,34 +50423,82 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
+
+
+
+
 var CourseFeature = /*#__PURE__*/function (_Component) {
   _inherits(CourseFeature, _Component);
 
   var _super = _createSuper(CourseFeature);
 
   function CourseFeature() {
+    var _this;
+
     _classCallCheck(this, CourseFeature);
 
-    return _super.apply(this, arguments);
+    _this = _super.call(this);
+    _this.state = {
+      DataList: [],
+      isLoading: true,
+      isError: false
+    };
+    return _this;
   }
 
   _createClass(CourseFeature, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      axios__WEBPACK_IMPORTED_MODULE_8___default.a.get('/getCourseData').then(function (response) {
+        if (response.status == 200) {
+          _this2.setState({
+            DataList: response.data,
+            isLoading: false
+          });
+        } else {
+          _this2.setState({
+            isLoading: false,
+            isError: true
+          });
+        }
+      })["catch"](function (error) {
+        _this2.setState({
+          isLoading: false,
+          isError: true
+        });
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__["default"], {
-        lg: 3,
-        md: 3,
-        sm: 12
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        className: "text-center mt-5 mb-5"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6__["default"].Img, {
-        className: "item-logo",
-        src: "storage/play.svg"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6__["default"].Body, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6__["default"].Title, {
-        className: "title-text mt-2"
-      }, "REACT BASIC"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6__["default"].Text, {
-        className: "des-text"
-      }, "Free Videos Cover All Of Basics About React")))))));
+      if (this.state.isLoading == true) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Loader__WEBPACK_IMPORTED_MODULE_9__["default"], null);
+      } else if (this.state.isError == true) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_WentWrong__WEBPACK_IMPORTED_MODULE_10__["default"], null);
+      } else {
+        var myList = this.state.DataList;
+        var myView = myList.map(function (myList) {
+          return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_5__["default"], {
+            lg: 3,
+            md: 3,
+            sm: 12
+          }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6__["default"], {
+            className: "text-center mt-5 mb-5"
+          }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6__["default"].Img, {
+            className: "item-logo",
+            src: myList.img
+          }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6__["default"].Body, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6__["default"].Title, {
+            className: "title-text mt-2"
+          }, myList.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Card__WEBPACK_IMPORTED_MODULE_6__["default"].Text, {
+            className: "des-text"
+          }, myList.des))));
+        });
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_3__["default"], {
+          className: "section-margin"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_4__["default"], null, myView)));
+      }
     }
   }]);
 
@@ -50453,6 +50506,86 @@ var CourseFeature = /*#__PURE__*/function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (CourseFeature);
+
+/***/ }),
+
+/***/ "./resources/js/components/CoursePlanHome.js":
+/*!***************************************************!*\
+  !*** ./resources/js/components/CoursePlanHome.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-bootstrap/Container */ "./node_modules/react-bootstrap/esm/Container.js");
+/* harmony import */ var react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap/Row */ "./node_modules/react-bootstrap/esm/Row.js");
+/* harmony import */ var react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-bootstrap/Col */ "./node_modules/react-bootstrap/esm/Col.js");
+function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function () { var Super = _getPrototypeOf(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+
+
+
+
+
+var CoursePlanHome = /*#__PURE__*/function (_Component) {
+  _inherits(CoursePlanHome, _Component);
+
+  var _super = _createSuper(CoursePlanHome);
+
+  function CoursePlanHome() {
+    _classCallCheck(this, CoursePlanHome);
+
+    return _super.apply(this, arguments);
+  }
+
+  _createClass(CoursePlanHome, [{
+    key: "render",
+    value: function render() {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        fluid: true,
+        className: "jumbotron bg-light section-margin jumbotron-fluid"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        className: "row justify-content-center text-center"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        className: "col-md-8"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        className: "play-logo",
+        src: "storage/play.svg"
+      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+        className: "title-text mt-2"
+      }, "React JS Course Plan"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "des-text"
+      }, "The overall skills gained from tthis project based courses will prepare you for any type of project development. In this course you will be taught how to write a complete project with React JS including User Panel + Admin Panel. Source code will also be provided with each class of the course, so you can easily practice manually. This project uses React JS with PHP for the server site and MySQL for the database.")))));
+    }
+  }]);
+
+  return CoursePlanHome;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (CoursePlanHome);
 
 /***/ }),
 
@@ -50530,7 +50663,7 @@ var HomeBanner = /*#__PURE__*/function (_Component) {
       }, "Learn with Md Arman Ullah"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         className: "m-0 top-subtitle"
       }, "Learn Something Good & Do Something Better"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_5__["default"], {
-        className: "btn login-btn m-3"
+        className: "login-btn m-3"
       }, "Login")))));
     }
   }]);
@@ -50601,7 +50734,7 @@ var Loader = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "react-logo",
+        className: "loaderLogo",
         src: _images_loading_svg__WEBPACK_IMPORTED_MODULE_3___default.a
       })))));
     }
@@ -50673,7 +50806,7 @@ var WentWrong = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Container__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Row__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Col__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: "w-50",
+        className: "wrong w-25",
         src: _images_oops_png__WEBPACK_IMPORTED_MODULE_3___default.a
       })))));
     }
@@ -50965,6 +51098,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_CourseFeature__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/CourseFeature */ "./resources/js/components/CourseFeature.js");
 /* harmony import */ var _components_Loader__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Loader */ "./resources/js/components/Loader.js");
 /* harmony import */ var _components_WentWrong__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/WentWrong */ "./resources/js/components/WentWrong.js");
+/* harmony import */ var _CoursePlan__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./CoursePlan */ "./resources/js/pages/CoursePlan.js");
+/* harmony import */ var _components_CoursePlanHome__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../components/CoursePlanHome */ "./resources/js/components/CoursePlanHome.js");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -50995,6 +51130,8 @@ function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.g
 
 
 
+
+
 var HomePage = /*#__PURE__*/function (_Component) {
   _inherits(HomePage, _Component);
 
@@ -51009,7 +51146,7 @@ var HomePage = /*#__PURE__*/function (_Component) {
   _createClass(HomePage, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_menu__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeBanner__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CourseFeature__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Loader__WEBPACK_IMPORTED_MODULE_5__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_WentWrong__WEBPACK_IMPORTED_MODULE_6__["default"], null));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_menu__WEBPACK_IMPORTED_MODULE_1__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeBanner__WEBPACK_IMPORTED_MODULE_2__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CourseFeature__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_CoursePlanHome__WEBPACK_IMPORTED_MODULE_8__["default"], null));
     }
   }]);
 
