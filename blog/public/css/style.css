@@ -150,6 +150,14 @@ img {
     color: #54DAFB!important;
 }
 
+.footer-link{
+
+    color: #636363!important;
+    /* font-family: Roboto; */
+    font-size: 14px;
+    font-weight: 300;
+}
+
 a:hover {
     text-decoration: none;
 }

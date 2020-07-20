@@ -67,7 +67,7 @@ class MoreSeries extends Component {
                                 <Card.Text className="des-text">
                                     {myList.des}
                                 </Card.Text>
-                                <a target='_blank' className='nav-item my-1 des-text' href={myList.url}></a>
+                                <a target='_blank' className='nav-item my-1 des-text' href={myList.url}>View More</a>
                             </Card.Body>
                         </Card>
 
