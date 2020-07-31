@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {fab, faFacebook, faYoutube} from '@fortawesome/free-brands-svg-icons'
-import {faEnvelope, faLocationArrow, faMapMarked, faPhone} from "@fortawesome/free-solid-svg-icons";
+import {faEnvelope, faLocationArrow, faMapMarked, faMapMarkedAlt, faPhone} from "@fortawesome/free-solid-svg-icons";
 
 class Footer extends Component {
     render() {
